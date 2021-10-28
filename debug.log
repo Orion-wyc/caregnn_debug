@@ -1,0 +1,115 @@
+Using backend: pytorch
+Namespace(dataset='yelp', early_stop=True, gpu=-1, hid_dim=64, lr=0.01, max_epoch=30, n_runs=1, num_layers=1, seed=72, sim_weight=2, step_size=0.02, weight_decay=0.001)
+Done saving data into cached files.
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.5 torch.Size([41920])
+Epoch 0, Train: Recall: 0.5780 AUC: 0.4007 Loss: 2.1053 | Val: Recall: 0.5411 AUC: 0.3888 Loss: 2.0984
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.48, ('review', 'net_rtr', 'review'): 0.48, ('review', 'net_rur', 'review'): 0.48}
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.48 torch.Size([32851])
+Epoch 1, Train: Recall: 0.0000 AUC: 0.4471 Loss: 2.1189 | Val: Recall: 0.0000 AUC: 0.4385 Loss: 2.1091
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.5, ('review', 'net_rtr', 'review'): 0.5, ('review', 'net_rur', 'review'): 0.5}
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.5 torch.Size([41920])
+Epoch 2, Train: Recall: 0.0201 AUC: 0.4173 Loss: 2.0873 | Val: Recall: 0.0155 AUC: 0.4066 Loss: 2.0770
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.52, ('review', 'net_rtr', 'review'): 0.52, ('review', 'net_rur', 'review'): 0.52}
+EarlyStopping counter: 1 out of 100
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.52 torch.Size([41974])
+Epoch 3, Train: Recall: 0.9633 AUC: 0.3891 Loss: 2.0797 | Val: Recall: 0.9783 AUC: 0.3786 Loss: 2.0732
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.5, ('review', 'net_rtr', 'review'): 0.5, ('review', 'net_rur', 'review'): 0.5}
+EarlyStopping counter: 2 out of 100
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.5 torch.Size([41920])
+Epoch 4, Train: Recall: 0.9985 AUC: 0.3845 Loss: 2.0794 | Val: Recall: 1.0000 AUC: 0.3749 Loss: 2.0754
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.48, ('review', 'net_rtr', 'review'): 0.48, ('review', 'net_rur', 'review'): 0.48}
+EarlyStopping counter: 3 out of 100
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.48 torch.Size([32851])
+Epoch 5, Train: Recall: 0.9920 AUC: 0.4059 Loss: 2.0641 | Val: Recall: 0.9922 AUC: 0.3930 Loss: 2.0598
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.45999999999999996, ('review', 'net_rtr', 'review'): 0.45999999999999996, ('review', 'net_rur', 'review'): 0.45999999999999996}
+EarlyStopping counter: 4 out of 100
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.45999999999999996 torch.Size([32099])
+Epoch 6, Train: Recall: 0.7095 AUC: 0.4196 Loss: 2.0489 | Val: Recall: 0.6868 AUC: 0.4082 Loss: 2.0425
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.43999999999999995, ('review', 'net_rtr', 'review'): 0.43999999999999995, ('review', 'net_rur', 'review'): 0.43999999999999995}
+EarlyStopping counter: 5 out of 100
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.43999999999999995 torch.Size([30707])
+Epoch 7, Train: Recall: 0.0932 AUC: 0.4350 Loss: 2.0412 | Val: Recall: 0.1023 AUC: 0.4257 Loss: 2.0329
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.41999999999999993, ('review', 'net_rtr', 'review'): 0.41999999999999993, ('review', 'net_rur', 'review'): 0.41999999999999993}
+EarlyStopping counter: 6 out of 100
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.41999999999999993 torch.Size([29304])
+Epoch 8, Train: Recall: 0.0064 AUC: 0.4491 Loss: 2.0367 | Val: Recall: 0.0109 AUC: 0.4399 Loss: 2.0281
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.3999999999999999, ('review', 'net_rtr', 'review'): 0.3999999999999999, ('review', 'net_rur', 'review'): 0.3999999999999999}
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.3999999999999999 torch.Size([28600])
+Epoch 9, Train: Recall: 0.0027 AUC: 0.4581 Loss: 2.0304 | Val: Recall: 0.0047 AUC: 0.4483 Loss: 2.0225
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.3799999999999999, ('review', 'net_rtr', 'review'): 0.3799999999999999, ('review', 'net_rur', 'review'): 0.3799999999999999}
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.3799999999999999 torch.Size([26122])
+Epoch 10, Train: Recall: 0.0136 AUC: 0.4633 Loss: 2.0211 | Val: Recall: 0.0140 AUC: 0.4527 Loss: 2.0142
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.3599999999999999, ('review', 'net_rtr', 'review'): 0.3599999999999999, ('review', 'net_rur', 'review'): 0.3599999999999999}
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.3599999999999999 torch.Size([24778])
+Epoch 11, Train: Recall: 0.0871 AUC: 0.4660 Loss: 2.0105 | Val: Recall: 0.0930 AUC: 0.4545 Loss: 2.0044
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.33999999999999986, ('review', 'net_rtr', 'review'): 0.33999999999999986, ('review', 'net_rur', 'review'): 0.33999999999999986}
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.33999999999999986 torch.Size([24344])
+Epoch 12, Train: Recall: 0.3867 AUC: 0.4684 Loss: 2.0019 | Val: Recall: 0.3814 AUC: 0.4569 Loss: 1.9960
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.31999999999999984, ('review', 'net_rtr', 'review'): 0.31999999999999984, ('review', 'net_rur', 'review'): 0.31999999999999984}
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.31999999999999984 torch.Size([19248])
+Epoch 13, Train: Recall: 0.7227 AUC: 0.4772 Loss: 1.9957 | Val: Recall: 0.6930 AUC: 0.4666 Loss: 1.9901
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.2999999999999998, ('review', 'net_rtr', 'review'): 0.2999999999999998, ('review', 'net_rur', 'review'): 0.2999999999999998}
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.2999999999999998 torch.Size([18641])
+Epoch 14, Train: Recall: 0.8500 AUC: 0.4852 Loss: 1.9903 | Val: Recall: 0.8527 AUC: 0.4746 Loss: 1.9852
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.2799999999999998, ('review', 'net_rtr', 'review'): 0.2799999999999998, ('review', 'net_rur', 'review'): 0.2799999999999998}
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.2799999999999998 torch.Size([16756])
+Epoch 15, Train: Recall: 0.8636 AUC: 0.4965 Loss: 1.9838 | Val: Recall: 0.8651 AUC: 0.4861 Loss: 1.9793
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.2599999999999998, ('review', 'net_rtr', 'review'): 0.2599999999999998, ('review', 'net_rur', 'review'): 0.2599999999999998}
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.2599999999999998 torch.Size([15911])
+Epoch 16, Train: Recall: 0.8019 AUC: 0.5093 Loss: 1.9766 | Val: Recall: 0.7891 AUC: 0.4997 Loss: 1.9726
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.2399999999999998, ('review', 'net_rtr', 'review'): 0.2399999999999998, ('review', 'net_rur', 'review'): 0.2399999999999998}
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.2399999999999998 torch.Size([12776])
+Epoch 17, Train: Recall: 0.6481 AUC: 0.5259 Loss: 1.9691 | Val: Recall: 0.6388 AUC: 0.5161 Loss: 1.9650
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.2199999999999998, ('review', 'net_rtr', 'review'): 0.2199999999999998, ('review', 'net_rur', 'review'): 0.2199999999999998}
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.2199999999999998 torch.Size([11351])
+Epoch 18, Train: Recall: 0.4455 AUC: 0.5400 Loss: 1.9627 | Val: Recall: 0.4636 AUC: 0.5301 Loss: 1.9581
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.19999999999999982, ('review', 'net_rtr', 'review'): 0.19999999999999982, ('review', 'net_rur', 'review'): 0.19999999999999982}
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.19999999999999982 torch.Size([10988])
+Epoch 19, Train: Recall: 0.2996 AUC: 0.5527 Loss: 1.9576 | Val: Recall: 0.2853 AUC: 0.5428 Loss: 1.9524
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.17999999999999983, ('review', 'net_rtr', 'review'): 0.17999999999999983, ('review', 'net_rur', 'review'): 0.17999999999999983}
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.17999999999999983 torch.Size([8451])
+Epoch 20, Train: Recall: 0.2265 AUC: 0.5652 Loss: 1.9530 | Val: Recall: 0.2155 AUC: 0.5551 Loss: 1.9476
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.15999999999999984, ('review', 'net_rtr', 'review'): 0.15999999999999984, ('review', 'net_rur', 'review'): 0.15999999999999984}
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.15999999999999984 torch.Size([6699])
+Epoch 21, Train: Recall: 0.2174 AUC: 0.5756 Loss: 1.9480 | Val: Recall: 0.2047 AUC: 0.5656 Loss: 1.9430
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.13999999999999985, ('review', 'net_rtr', 'review'): 0.13999999999999985, ('review', 'net_rur', 'review'): 0.13999999999999985}
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.13999999999999985 torch.Size([5145])
+Epoch 22, Train: Recall: 0.2587 AUC: 0.5847 Loss: 1.9427 | Val: Recall: 0.2512 AUC: 0.5743 Loss: 1.9383
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.11999999999999984, ('review', 'net_rtr', 'review'): 0.11999999999999984, ('review', 'net_rur', 'review'): 0.11999999999999984}
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.11999999999999984 torch.Size([3985])
+Epoch 23, Train: Recall: 0.3489 AUC: 0.5934 Loss: 1.9373 | Val: Recall: 0.3318 AUC: 0.5821 Loss: 1.9335
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.09999999999999984, ('review', 'net_rtr', 'review'): 0.09999999999999984, ('review', 'net_rur', 'review'): 0.09999999999999984}
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.09999999999999984 torch.Size([2905])
+Epoch 24, Train: Recall: 0.4511 AUC: 0.6009 Loss: 1.9321 | Val: Recall: 0.4605 AUC: 0.5897 Loss: 1.9287
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.07999999999999984, ('review', 'net_rtr', 'review'): 0.07999999999999984, ('review', 'net_rur', 'review'): 0.07999999999999984}
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.07999999999999984 torch.Size([1563])
+Epoch 25, Train: Recall: 0.5640 AUC: 0.6078 Loss: 1.9275 | Val: Recall: 0.5628 AUC: 0.5965 Loss: 1.9244
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.05999999999999983, ('review', 'net_rtr', 'review'): 0.05999999999999983, ('review', 'net_rur', 'review'): 0.05999999999999983}
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.05999999999999983 torch.Size([832])
+Epoch 26, Train: Recall: 0.6473 AUC: 0.6137 Loss: 1.9236 | Val: Recall: 0.6372 AUC: 0.6022 Loss: 1.9208
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.03999999999999983, ('review', 'net_rtr', 'review'): 0.03999999999999983, ('review', 'net_rur', 'review'): 0.03999999999999983}
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.03999999999999983 torch.Size([144])
+Epoch 27, Train: Recall: 0.6871 AUC: 0.6191 Loss: 1.9198 | Val: Recall: 0.6620 AUC: 0.6076 Loss: 1.9175
+layer 0's thresholds: {('review', 'net_rsr', 'review'): 0.019999999999999827, ('review', 'net_rtr', 'review'): 0.019999999999999827, ('review', 'net_rur', 'review'): 0.019999999999999827}
+Traceback (most recent call last):
+  File "/home/yuchen/PyCharmProjects/caregnn_debug_remote/caregnn/main.py", line 141, in <module>
+    results.append(main(args))
+  File "/home/yuchen/PyCharmProjects/caregnn_debug_remote/caregnn/main.py", line 69, in main
+    logits_gnn, logits_sim = model(graph, feat)
+  File "/home/yuchen/anaconda3/envs/dgl_night/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yuchen/PyCharmProjects/caregnn_debug_remote/caregnn/model.py", line 151, in forward
+    feat = layer(graph, feat)
+  File "/home/yuchen/anaconda3/envs/dgl_night/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yuchen/PyCharmProjects/caregnn_debug_remote/caregnn/model.py", line 75, in forward
+    hr[etype] = g.ndata['h_%s' % etype[1]]
+  File "/home/yuchen/anaconda3/envs/dgl_night/lib/python3.8/site-packages/dgl/view.py", line 66, in __getitem__
+    return self._graph._get_n_repr(self._ntid, self._nodes)[key]
+  File "/home/yuchen/anaconda3/envs/dgl_night/lib/python3.8/site-packages/dgl/frame.py", line 393, in __getitem__
+    return self._columns[name].data
+KeyError: 'h_net_rur'
+[DEBUG]sampled_edges ('review', 'net_rur', 'review') 0.019999999999999827 torch.Size([0])
+[DEBUG] error here dict_keys(['feature', 'label', 'train_mask', 'val_mask', 'test_mask', 'h', 'h_net_rsr', 'h_net_rtr'])
+
+Process finished with exit code 1
